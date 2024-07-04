@@ -1,0 +1,66 @@
+#chart {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.bar-container {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bar {
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ddd; /* Adding a background for the full bar length */
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.project-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.marker {
+    position: absolute;
+    top: -5px;
+    width: 2px; /* Changed from 10px to 2px to make the marker thinner */
+    height: 30px;
+    background: black; /* Changed from red to black for better visibility */
+    border-radius: 5px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+.filters select {
+    margin-right: 10px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+.bar {
+    fill: steelblue;
+}
+.label {
+    font-size: 12px;
+    fill: white;
+}
